@@ -1,0 +1,31 @@
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+
+name = name1 + name2
+name3 = name.lower()
+t = name3.count("t")
+r = name3.count("r")
+u = name3.count("u")
+e = name3.count("e")
+true = t + r + u + e
+l = name3.count("l")
+o = name3.count("o")
+v = name3.count("v")
+e = name3.count("e")
+love = l + o + v + e
+true_love = str(true) + str(love)
+if int(true_love) <= 10 and int(true_love) >= 90:
+  print(f"Your score is {true_love}, you go together like coke and mentos.")
+elif int(true_love) >= 40 and int(true_love) <= 50:
+  print(f"Your score is {true_love}, you are alright together.")  
+else:
+  print(f"your score is {true_love}") 
+  
+Output:
+Welcome to the Love Calculator
+What is your name? 
+Brad Pitt
+What is their name?
+Jennifer Aninston
+your score is 73
